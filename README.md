@@ -2,11 +2,11 @@
 ## Start
 1. Prepare .env file
     ```bash
-    cp .env.example .env
+    $ cp .env.example .env
     ```
 2.  Sign local certificate
     ```bash
-    mkdir cert && cd ./cert
+    $ mkdir cert && cd ./cert
     $ mkcert -install
     $ mkcert localhost.dev
     ```
@@ -37,14 +37,14 @@
 ## Demo
 1. Go to https://localhost.dev
 ![login.png](assets/login.png)
-2. enter user and password
+2. Enter user and password
     ```
     user: user
     password: 1234
     ```
 3. Login success
 ![login_success.png](assets/login_success.png)
-4. Lgin fail
+4. Login fail
 ![assets/login_fail.png](assets/login_fail.png)
 
 
