@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- 主機： db:3306
--- 產生時間： 2024 年 08 月 10 日 20:46
+-- 產生時間： 2024 年 08 月 11 日 06:56
 -- 伺服器版本： 9.0.1
 -- PHP 版本： 8.2.8
 
@@ -33,6 +33,12 @@ CREATE TABLE `user` (
   `password` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
+--
+-- 傾印資料表的資料 `user`
+--
+
+INSERT INTO `user` (`id`, `user`, `password`) VALUES
+(3, 'user', '03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4');
 
 --
 -- 已傾印資料表的索引
@@ -52,7 +58,7 @@ ALTER TABLE `user`
 -- 使用資料表自動遞增(AUTO_INCREMENT) `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
