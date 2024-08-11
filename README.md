@@ -1,4 +1,5 @@
 # http-service-demo
+This demo shows how to develop back-end services in the context of separation of front-end and back-end. By letting the `/api` path in nginx config lead to the back-end running on the host, the back-end development can be quickly tested without having to repeat  build image.
 ## Start
 1. Prepare .env file
     ```bash
